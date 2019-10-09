@@ -9,6 +9,8 @@ trigger:
   paths:
     include: 
     - parrot/
+    
+pr: master
 
 variables:
   projectName: parrot
