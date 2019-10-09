@@ -19,7 +19,7 @@ variables:
   imageName: '$(projectName)'
   # define 3 more variables: registryName, registryLogin and registryPassword in the build pipeline in UI
 
-
 steps:
 - bash: docker build -f $(system.defaultWorkingDirectory)/$(projectName)/Dockerfile -t $(registryServerName)/$(imageName):$(build.buildId) $(system.defaultWorkingDirectory)/$(projectName)
   displayName: 'docker build'
+  bash: echo "haitong-hahaha"
