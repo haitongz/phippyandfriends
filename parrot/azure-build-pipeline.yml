@@ -10,7 +10,8 @@ trigger:
     include: 
     - parrot/
     
-pr: master
+pr: 
+- master
 
 variables:
   projectName: parrot
